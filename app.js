@@ -9,4 +9,4 @@ app.get('/', (req, res) => {
     res.sendFile(path.resolve(__dirname,"./views/home.html"))})
 
    
-app.listen (3030,()=>console.log("servidor Funcionando ") )
+app.listen (3031,()=>console.log("servidor Funcionando ") )

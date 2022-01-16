@@ -1,0 +1,48 @@
+.cuerpo { display:block; text-align:center;margin-right:auto; margin-left:auto;
+        font-family:'Roboto', sans-seri; }
+.pie {display:block; text-align:center; font-family:'Roboto', sans-seri ;
+        border:block-color rgba(212,202,202,40%);border:block-with 2px ;
+        text-decoration-color:rgb(212,202,202)}
+.logosPie {color:blue;text-align: center;}
+h2 {size:24px}
+a {color:black ;text-decoration:none ; font-family:'Roboto', sans-seri;}
+
+.precios {size :18px}
+.coment {size:16px}
+
+.buscarBar {display:inline-block;size:10%; width:2em;height: 2em ;
+            text-align:center; margin-right:auto;margin-left:auto;margin-bottom:10px;margin-top:10x;
+            ;background-color:blue;padding-bottom:10px;
+            border-radius:2px; } 
+.fasBar {color:white; padding:1em 1em 1em 1em;display:-webkit-inline-box ;
+         -moz-box-align: center; background-color:blue}
+           
+
+
+/*#redondeado {
+    width: 250px;
+    height: 200px;
+    background: blue;
+    border-radius: 20px;
+    }*/
+.seccionBusca {display:block; text-align:left;margin-left: 10px;}
+ #buscar {object-position:left ; padding:12px; size:50%; width:50% ;
+        align-content: center; height:12%;position:center} 
+#fasSearch before {display:inline-block;size:2em;align-content: left;position:left;margin:auto ; 
+                justify-self:left;}
+/*header.encabezado {background-color:#EAC926; position:middle;
+                   width: 50%; margin:auto} */
+
+ #formasDePago{font-size:12px;}
+ #fas fa-hand-holding-usd{color:black;size:2em;margin-bottom:10px;position: center;
+                                justify-content: center;}
+.seccion{display: block;text-align: center ; background:#EAC926 ;position:center;
+                    margin-left:auto;margin-right: auto; width:50%;}   
+.listas{display:block;text-align: left; 
+        text-decoration: none;}
+
+.imagen {display:block;margin-left: auto;margin-right:auto ;align:center ; width:50%}
+.texto {font-family: 'Roboto', sans-serif;}
+#textoBarra{ font-family: 'Roboto', sans-seri; size:12px}
+ 
+#input {font-size:16px;color:black;}

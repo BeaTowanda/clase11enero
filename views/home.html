@@ -4,32 +4,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <link rel="stylesheet" href="/css/styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
-<body>
-    <header>         
-        <section>             
-            <img src = "/images/logo-mercado-liebre.svg"aling = "center" border= "1px solid yellow" width = "50%"> >
-            <h2 aling ="center"> Lugar para poner barra de búsqueda <br/>
-            Comprà en cuotas y sin tarjeta de Crèdito</h2>
-            <br/>
-            
-            <ul aling = "center">
-                <li><a href ="circle"><u>Ofertas</u></a></li>
-                <li><a href ="circle">Tiendas Oficiales</a></li>
-                <li><a href ="circle">Vender</a></li>
-                <li><a href ="circle">Ayuda</a></li>
-               
-            </ul>
-            <br/>
-            <ul>
-                <li><a href ="circle">Creà tu Cuenta</a></li>
-                <li><a href ="circle">Ingresà</a></li>
-                <li><a href ="circle">Mis Compras</a></li>
-               
-            </ul>         
-        <br/>         
-        </section>
+<body class ="cuerpo"> 
+    <header >             
+        <section class="seccion">                     
+             <img class ="imagen" src = "/images/logo-mercado-liebre.svg" ></img> 
+
+              <div class="seccionBusca">           
+                <input id="buscar"type ="text" placeholder="Buscar Productos,Marcas"required>                            
+                 <p id= "fasSearch"><i class="fas fa-search"></i></p>      
+              </div> 
+
+                <p id="FormasPago"><i class="fas fa-hand-holding-usd"></i><span id ="textoBarra">Comprà en cuotas y sin tarjeta de Crèdito</span>
+            <br/>                      
+        
+        <section class="listas">
+            <a href=#>Ofertas</a> <br/>           
+             <a href =#>Tiendas Oficiales</a><br/>
+             <a href =#>Vender</a> <br/>
+             <a href ="#">Ayuda</a> <br>                       
+            <br/>             
+                <a href = #>Creà tu Cuenta <span> <i class="fas fa-money-check"></i></span></a> 
+                <br/>               
+                <a href = #>Ingresà<span><i class="fas fa-sign-in-alt"></i></span></a>  
+                <br/>           
+                <a href = #>Mis Compras<span><i class="fas fa-shopping-basket"></i></span></a>                
+                     
+        <br/> 
+        </section >
+        <div class="cuerpo"> 
+            <a href=# class="buscarBar"><span class="fasBar" aling="center"><i class="fas fa-bars"></i></span></a>
+  	                          
+   
+        </div>                     
+       </section>         
     </header>
      <main aling = "center">         
         <section id="ultimaVisita">
@@ -39,72 +51,73 @@
             <h2 aling = "center"><strong>Basado en la ùltima Visita</strong></h2>
             <img src = "/images/img-cafetera-moulinex.jpg" aling = "center" width = "50%" >
             <br/>
-            <p>$6.770</p>
-            <p>40% OFF </p>    
-            <p><strong>Cafetera Moulinex</strong></p>
+            <p class="precios">$6.770</p>
+            <p class="coment">40% OFF </p>    
+            <p class="coment"><strong>Cafetera Moulinex</strong></p>
         </article>
 
          <article id= "mac">
          <img src = "/images/img-macbook-pro-2019.jpg" aling ="center"width = "50%" >
          <br/>
-            <p>$230.000</p>
-            <p>20% OFF </p>    
-            <p><strong>MacBook Pro 2019</strong></p>
+            <p class="precios">$230.000</p>
+            <p class="coment">20% OFF </p>    
+            <p class="coment"><strong>MacBook Pro 2019</strong></p>
          </article>
 
          <article id= "movil">
          <img src = "/images/img-samsung-galaxy-s10.jpg" aling = "center" width = "50%" >
          <br/>
-            <p>$70.500</p>
-            <p>10% OFF </p>    
-            <p><strong>Samsung Galaxy S10</strong></p>
+            <p class="precios">$70.500</p>
+            <p class="coment">10% OFF </p>    
+            <p class="coment"><strong>Samsung Galaxy S10</strong></p>
          </article>
          <article id="smartV">
          <img src = "/images/img-tv-samsung-smart.jpg" aling="center" width = "50%" >
          <br/>
-            <p>$23.200</p>
-            <p>5% OFF </p>    
-            <p><strong>SmartTv Samsung 43</strong></p>
+            <p class="precios">$23.200</p>
+            <p class="coment">5% OFF </p>    
+            <p class="coment"><strong>SmartTv Samsung 43</strong></p>
         </article> 
         </section>
 
         <section id="ofertas">
                 <article id = "cafetera">   
-                <h3 aling = "center"><strong>Ofertas</strong></h3>
+                <h2 aling = "center"><strong>Ofertas</strong></h2>
                 <img src = "/images/img-cafetera-moulinex.jpg" aling = "center" width = "50%" >
                 <br/>
-                <p>$6.770</p>
-                <p>40% OFF </p>    
-                <p><strong>Cafetera Moulinex</strong></p>
+                <p class="precios">$6.770</p>
+                <p class="coment">40% OFF </p>    
+                <p class="coment"><strong>Cafetera Moulinex</strong></p>
             </article>
     
              <article id= "mac">
              <img src = "/images/img-macbook-pro-2019.jpg" aling ="center"width = "50%" >
              <br/>
-                <p>$230.000</p>
-                <p>20% OFF </p>    
-                <p><strong>MacBook Pro 2019</strong></p>
+                <p class="precios">$230.000</p>
+                <p class="coment">20% OFF </p>    
+                <p class="coment"><strong>MacBook Pro 2019</strong></p>
              </article>
     
              <article id= "movil">
              <img src = "/images/img-samsung-galaxy-s10.jpg" aling = "center" width = "50%" >
              <br/>
-                <p>$70.500</p>
-                <p>10% OFF </p>    
-                <p><strong>Samsung Galaxy S10</strong></p>
+                <p class="precios">$70.500</p>
+                <p class="coment">10% OFF </p>    
+                <p class="coment"><strong>Samsung Galaxy S10</strong></p>
              </article>
              <article id="smartV">
              <img src = "/images/img-tv-samsung-smart.jpg" aling="center" width = "50%" >
              <br/>
-                <p>$23.200</p>
-                <p>5% OFF </p>    
-                <p><strong>SmartTv Samsung 43</strong></p>
+                <p class="precios">$23.200</p>
+                <p class="coment">5% OFF </p>    
+                <p class="coment"><strong>SmartTv Samsung 43</strong></p>
             </article> 
         </section>      
       </main>
-     <footer>
+     <footer class="pie">
          <section id="formaPago">
              <br/>
+             <p> <span class="logosPie"><i class="far fa-credit-card"></i><span></p>
             <p aling= "center"><strong>Pagá con tarjeta o en efectivo</strong></p>
             
             <p aling = "center">Con Mercado Liebre Cash, tenés cuotas sin </p>
@@ -122,6 +135,7 @@
              
          <br/>
          <section id="seguridad">
+            <p> <span class="logosPie"><i class="fas fa-user-shield"></i></i><span></p>
             <p aling= "center"><strong>Seguridad, de principio a fin.</strong></p>
             
             <p aling = "center">¿No te gusta? ¡Devolvelo! En Mercado Liebre,</p>
